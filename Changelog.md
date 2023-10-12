@@ -10,10 +10,11 @@ Language Features:
 
 
 Compiler Features:
-* EVM: Support for the EVM Version "Cancun".
-* SMTChecker: Support `bytes.concat` except when string literals are passed as arguments.
-* TypeChecker: Comparison of internal function pointers now yields a warning, as it can produce unexpected results with the legacy pipeline enabled.
-* Standard JSON Interface: Add experimental support to import EVM assembly in the format used by ``--asm-json``.
+ * Commandline Interface: Allow the use of ``--asm-json`` output option in assembler mode to export EVM assembly of the contracts in JSON format.
+ * EVM: Support for the EVM Version "Cancun".
+ * SMTChecker: Support `bytes.concat` except when string literals are passed as arguments.
+ * TypeChecker: Comparison of internal function pointers now yields a warning, as it can produce unexpected results with the legacy pipeline enabled.
+ * Standard JSON Interface: Add experimental support to import EVM assembly in the format used by ``--asm-json``.
 
 
 Bugfixes:
